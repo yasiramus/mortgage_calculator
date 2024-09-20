@@ -38,8 +38,9 @@ public class Calculate {
         float monthlyInterest = annualInterest / PERCENT / MONTHS_IN_YEAR;
         short numberOfPayments = ( short) (years * MONTHS_IN_YEAR); //converting the entire expression to short
 
-            double balance = principal * (Math.pow(1 + monthlyInterest, numberOfPayments) - Math.pow(1 + monthlyInterest, numberOfPaymentsMade))
-                    / (Math.pow(1 + monthlyInterest, numberOfPayments) - 1);
+            double balance = principal * (Math.pow(1 + monthlyInterest, numberOfPayments)
+                            - Math.pow(1 + monthlyInterest, numberOfPaymentsMade))
+                            / (Math.pow(1 + monthlyInterest, numberOfPayments) - 1);
 
         return NumberFormat.getCurrencyInstance().format(balance);
 

@@ -16,17 +16,6 @@ public class Main {
         //printing values
         Print.printMortgage(principal, annualInterest, years);
         Print.printPaymentSchedule(years, principal, annualInterest);
-
-//        Debugging
-//        System.out.println("Start");
-//        printNumbers(6);
-//        System.out.println("Finish");
-//    }
-//
-//    public static void printNumbers(int limit){
-//        for (int number = 0; number <= limit; number++){
-//            System.out.println(number);
-//        }
     }
 
 }

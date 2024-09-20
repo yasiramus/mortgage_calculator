@@ -1,7 +1,4 @@
 //import java.text.NumberFormat;
-//import java.util.Scanner;
-
-//public class PracticeFile {
 
 //import java.security.Principal;
 //import java.util.Arrays;
@@ -9,8 +6,11 @@
 //import java.util.Locale;
 //import java.util.Scanner;
 
+//public class PracticeFile {
+
 ////       final double AGE = 89.87;
 ////        System.out.println(AGE);
+
 ////        implicit casting \ automatically conversion or casting
 ////        short x = 1;
 ////        int y = x+2;
@@ -18,8 +18,8 @@
 ////        implicit casting happens when ever we are not going to lose data
 ////        in this case there isn't any data lose
 ////        double x = 1.1;
-//////       double y = x+2;
-//////        System.out.println(y);
+//////      double y = x+2;
+//////      System.out.println(y);
 //
 ////        explicit casting: manually conversion
 ////        explicit casting can only happen in compatible types
@@ -27,10 +27,10 @@
 ////        int y = (int) x + 2;
 ////        System.out.println(y);
 //
-////        to cast not compatible type we use the wrapper classes
-////       they are reference types
-////        Wrapper classes:
-////        Integer, Short, Float, Long, Byte, Double
+////        to cast not compatible type we use the wrapper classes.
+//            Wrapper classes:
+////        they are reference types,
+////        some wrapper classes are Integer, Short, Float, Long, Byte, Double
 //
 ////        convert string to a  number
 ////        String k = "1";
@@ -51,12 +51,8 @@
 //////        System.out.print("Enter your name :" );
 ////        String name = scanner.nextLine().trim();
 ////        System.out.println("You are " + name);
-//
-//
 ////    }
-////
 ////}
-//
 //
 ////public class Main {
 ////    public static void main(String[] args){
@@ -75,7 +71,8 @@
 ////        System.out.print("Years in Period: ");
 ////        byte numberOfYears = scanner.nextByte();
 ////
-////        double mortgage = principal * (monthlyInterestRate  * Math.pow(1 + monthlyInterestRate, numberOfYears)) / (Math.pow(1 + monthlyInterestRate, numberOfYears) - 1 );
+////        double mortgage = principal * (monthlyInterestRate  * Math.pow(1 + monthlyInterestRate, numberOfYears))
+//                          / (Math.pow(1 + monthlyInterestRate, numberOfYears) - 1 );
 ////
 ////        String mortgageFormatted = NumberFormat.getCurrencyInstance().format(mortgage);
 ////        System.out.println("Mortgage: " + mortgageFormatted);
@@ -220,7 +217,6 @@
 //            System.out.print("Input: ");
 //            input = scanner.next().toLowerCase();
 //            System.out.println(input);
-//
 //        }
 
 //        do while loop get executed at least once
@@ -323,5 +319,4 @@
 //    5 to 10 lines
 //1. concept or lines of code that goes together
 //    2. repetitive patterns
-
 //}
